@@ -5,8 +5,8 @@ router.post("/send", function (req, res) {
     const transporter = nodemailer.createTransport({
         service: "gmail",
         auth: {
-            user: 'khanhtbpro@gmail.com',
-            pass: '09042000'
+            user: 'Email của bạn',
+            pass: 'Pass của bạn'
         }
     })
 
